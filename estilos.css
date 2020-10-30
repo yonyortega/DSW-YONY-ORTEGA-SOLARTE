@@ -19,7 +19,18 @@ body{
 
 }
 
-.tabla{
-    width: 100%;
-    margin: 100 px;
+.section{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: darkgoldenrod;
+    height: 300px;
+}
+.aside{
+    float: left;
+    padding: 20px;
+    width: 30%;
+    background-color: darkgoldenrod;
+    height: 300px;
+
 }
