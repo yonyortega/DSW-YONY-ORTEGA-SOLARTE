@@ -9,26 +9,27 @@ header {
     padding: 10px;
     text-align: center;
     color:black;
+    width: 100%;
 }
 
 aside {
     float: left;
-    width: 30%;
+    width: 100%;
     height: auto;
     background: #ccc;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0%;
+    
 }
 
 article {
     float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #f1f1f1;
+    padding: 50px;
+    width: 100%;
+    background-color:midnightblue;
     height: auto;
    
 }
@@ -37,24 +38,30 @@ section:after {
     content: "";
     display: table;
     clear: both;
+    background-color: midnightblue;
+    
 }
 nav{
     background-color: darkorange;
     color: black;
     text-align: center;
+    padding: 0.3%;
+    width: 100%;
 }
 
 footer {
-    background-color: #777;
+    background-color: midnightblue;
     padding: 10px;
     text-align: center;
     color: white;
+    
 }
 
-aside,
-article {
-    width: 100%;
+aside,article {
     height: auto;
+    background-color: midnightblue;
+    padding: 50px;
+    
 }
 .menu li{
     display: inline-block;
@@ -68,11 +75,11 @@ li a, boton{
 }
 .listaDesplegable{
     display: none;
-    background-color: blanchedalmond;
+    background-color:darkorange;
     position: absolute;
 }
 .listaDesplegable a{
-    color: black;
+    color:white ;
     display: block;
     text-align: left;
 
@@ -81,6 +88,6 @@ li a, boton{
     display: block;
 }
 li a:hover{
-    background-color: red;
+    background-color: darkorange;
 
 }
