@@ -1,33 +1,7 @@
-body{
- font-family: Georgia, 'Times New Roman', Times, serif;
-}
-header{
-    background-color: darkmagenta;
-    padding: 30px;
+.menu{
+    display: inline-block ;
+    text-decoration: honeydew;
+    background-color: gold;
     text-align: center;
-    font-weight: 35px;
-    color: darkolivegreen;
-}
-nav{
-    background-color: darkred;
-    color: darkturquoise;
-    text-align: center;
-    font-weight: 35px;
-}
 
-
-
-section{
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: darkgoldenrod;
-    height: 100px;
-}
-aside{
-    float: left;
-    padding: 20px;
-    width: 30%;
-    background-color: darkgoldenrod;
-    height: 100px;
 }
